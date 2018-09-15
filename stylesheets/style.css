@@ -10,6 +10,29 @@
     clear: both;
 } 
 
+.col {
+    float: left;
+}
+
+.col.left {
+    width: 30%;
+}
+
+.col.right {
+    width: 70%;
+}
+
+.r:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.r{
+    padding-top:10px;
+}
+
+
 #name{
     font-size: 24px;
     color: white;
@@ -25,11 +48,33 @@
    
  }
 
- .bli{
-    display: block;
-    width: auto;
-    font-size: 34px;    
+ .col.left.l{
+     background-color: #333;
  }
+
+ .col.right.r{
+    background-color: #333;
+    height: 145px;
+}
+
+ .borgy{
+     padding:0px;
+     padding-left:20px;
+ }
+
+
+.bli{
+    font-size:34px;
+    display: block;
+    background-color: #f1f1f1;
+    text-decoration: none;
+    
+}
+
+.bli a{
+    padding-left:20px;
+    font-family: monospace;
+}
 
 ul.llist{
     list-style-type: circle;
