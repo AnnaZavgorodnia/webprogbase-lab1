@@ -1,63 +1,67 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
 
-  <title>users</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-  <link rel="icon" href="./images/logo1.png">
-  <link type="text/css" href="./stylesheets/style.css" rel="stylesheet" />
+<head>
+    <meta charset="utf-8">
+
+    <title>Users</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <link rel="icon" href="./images/logo1.png">
+    <link type="text/css" href="./stylesheets/style.css" rel="stylesheet" />
 
 </head>
+
 <body>
-    <div class="row" style="background-color:#ffff66;"> 
-        <div class="column">
-          <img src="./images/logo1.png" height="60" width="80">
-        </div> 
-         
-        <div class="column">
-          <ul>
-            <li><p>VernyBorg@</p></li>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./users.html">Users</a></li>
-            <li><a href="./borgy.html">Borgy</a></li>
-            <li><a href="./about.html">About</a></li>
-          </ul>
-        </div> 
-      </div>
+    <div id="mainTheme">
+        <div class="row">
+            <div class="column">
+                <img src="./images/logo1.png" height="80" width="110">
+            </div>
+            <div class="column" id="name">
+                <p>VernyBorg@</p>
+            </div>
+            <div class="column">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a class="here" href="./users.html">Users</a></li>
+                    <li><a href="./borgy.html">Borgy</a></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+            </div>
 
-      <table id="users">
-          <tr> 
-              <th>Login</th>
-              <th>Fullname</th>
-              <th>Registered</th>
-          </tr>
-          <tr>
-              <td><a href="./users/1.html">user1login</a></td>
-              <td><a href="./users/1.html">user1name</a></td>
-              <td>date</td>
-          </tr>
-          <tr>
-              <td><a href="./users/2.html">user2login</a></td>
-              <td><a href="./users/2.html">user2name</a></td>
-              <td>date</td>
-          </tr>
-          <tr>
-              <td><a href="./users/3.html">user3login</a></td>
-              <td><a href="./users/3.html">user3name</a></td>
-              <td>date</td>
-          </tr>
-          <tr>
-              <td><a href="./users/4.html">user4login</a></td>
-              <td><a href="./users/4.html">user4name</a></td>
-              <td>date</td>
-          </tr>
-      </table>
-      
+        </div>
+        <div class="relative">
+        <table id="users">
+            <tr>
+                <th>Login</th>
+                <th>Fullname</th>
+                <th>Registered</th>
+            </tr>
+            <tr>
+                <td class="utd"><a href="./users/1.html">lazygirl</a></td>
+                <td class="utd"><a href="./users/1.html">Anna Zavgorodnia</a></td>
+                <td class="utd" >14/02/2015</td>
+            </tr>
+            <tr>
+                <td class="utd"><a href="./users/2.html">Superman</a></td>
+                <td class="utd"><a href="./users/2.html">John Wayne</a></td>
+                <td class="utd">25/09/2017</td>
+            </tr>
+            <tr>
+                <td class="utd"><a href="./users/3.html">goroania</a></td>
+                <td class="utd"><a href="./users/3.html">Anna Gorodchenko</a></td>
+                <td class="utd">26/05/2010</td>
+            </tr>
+            <tr>
+                <td class="utd"><a href="./users/4.html">Romashka</a></td>
+                <td class="utd"><a href="./users/4.html">Roman Romanovich</a></td>
+                <td class="utd">15/10/2016</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+</body>
 
-  
-
-    </body>
 </html>
